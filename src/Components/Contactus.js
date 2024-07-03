@@ -1,32 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Contactus.css';
 import { PiSpiralThin } from "react-icons/pi";
 
 const Contactus = () => {
-    const alertRedInput = "#8C1010";
-    const defaultInput = "rgba(10, 180, 180, 1)";
-
-    const [username, setUsername] = useState('');
-    const [usernameError, setUsernameError] = useState('');
-
-    const userNameValidation = (usernameInput) => {
-        const issueArr = [];
-        if (/[-!@#$%^&*()_+|~=`{}\[\]:";'<>?,.\/]/.test(usernameInput)) {
-            issueArr.push("No special characters!");
-        }
-        if (issueArr.length > 0) {
-            setUsernameError(issueArr.join("\n"));
-        } else {
-            setUsernameError('');
-        }
-    };
-
-
-    const handleUsernameChange = (e) => {
-        setUsername(e.target.value);
-        userNameValidation(e.target.value);
-    };
-
 
     return (
         <div className='ContactPage'>
@@ -48,8 +24,6 @@ const Contactus = () => {
                                 id="username"
                                 name="name"
                                 placeholder="Your Name"
-                                // value={username}
-                                onChange={handleUsernameChange}
                                 required
                             />
 

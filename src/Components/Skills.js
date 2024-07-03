@@ -1,8 +1,8 @@
 import React from 'react'; 
 import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
+import {FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
 import {DiNodejs, DiJavascript1} from "react-icons/di";
-import {SiExpress, SiMongodb, SiPostman, SiPython, SiVercel,FaTailwind} from "react-icons/si";
+import {SiExpress, SiMongodb, SiPostman, SiPython, SiVercel} from "react-icons/si";
 
 const Skills = ({skill}) => {
     const icon = {
@@ -20,7 +20,6 @@ const Skills = ({skill}) => {
         Bootstrap: <FaBootstrap/>,
         Vercel : <SiVercel/>,
       Python : <SiPython/>,
-        // tailwind: <FaTailwind/>
     }
     
   return (
