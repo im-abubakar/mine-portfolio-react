@@ -13,9 +13,9 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
     RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
 
-    NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    NewsletterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
+    EzPartyDesc:"Welcome to EzParty, the premier platform for booking top event services in your city. The site connects users with the best local vendors for weddings, parties, and more. Start planning the perfect event today with EzParty!",
+    EzPartyGithub:"",  
+    EzPartyWebsite:"https://oneezparty.com/",
     
     WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
     WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
@@ -29,7 +29,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     
   return (
     <div className='projectBox'> 
-        <img className='projectPhoto' src={projectPhoto} length={4000} width={4000} alt="Project display" /> 
+        <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
         <div>
             <br />
             <h3>{projectName}</h3>
