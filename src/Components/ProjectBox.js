@@ -9,9 +9,9 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     TindogGithub : "https://github.com/DevanshSahni/tindog",
     TindogWebsite : "https://devanshsahni.github.io/tindog/",
 
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
+    InventoryDesc : "This is a responsive inventory management system built in MERN stack, featuring JWT token-based authentication. I also deployed it using GitHub Pages.",
+    InventoryGithub : "https://github.com/im-abubakar/Inventory-management-system",
+    InventoryWebsite : "https://inventory-managment-sys.netlify.app/",
 
     EzPartyDesc:"Welcome to EzParty, the premier platform for booking top event services in your city. The site connects users with the best local vendors for weddings, parties, and more. Start planning the perfect event today with EzParty!",
     EzPartyGithub:"",  
