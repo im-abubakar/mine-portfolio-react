@@ -11,7 +11,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
     InventoryDesc : "This is a responsive inventory management system built in MERN stack, featuring JWT token-based authentication. I also deployed it using GitHub Pages.",
     InventoryGithub : "https://github.com/im-abubakar/Inventory-management-system",
-    InventoryWebsite : "https://inventory-managment-sys.netlify.app/",
+    InventoryWebsite : "https://inventory-managment-sys.netlify.app/login",
 
     EzPartyDesc:"Welcome to EzParty, the premier platform for booking top event services in your city. The site connects users with the best local vendors for weddings, parties, and more. Start planning the perfect event today with EzParty!",
     EzPartyGithub:"",  
