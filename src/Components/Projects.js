@@ -12,8 +12,8 @@ const Projects = () => {
       <div className='project'>
         <ProjectBox projectPhoto={InventoryImage} projectName="Inventory" />
         <ProjectBox projectPhoto={OneezPartyImage} projectName="EzParty" />
-        <ProjectBox projectPhoto={InventoryImage} projectName="Inventory Management System" />
-        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
+        {/* <ProjectBox projectPhoto={InventoryImage} projectName="Inventory Management System" />
+        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" /> */}
       </div>
 
     </div>
