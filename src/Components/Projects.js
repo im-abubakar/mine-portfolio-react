@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectBox from './ProjectBox';
 import OneezPartyImage from '../images/OneezPartyImage.png';
 // import RogfreeImage from '../images/RogfreeImage.png';
-import TindogImage from '../images/TindogImage.png';
+// import TindogImage from '../images/TindogImage.png';
 import InventoryImage from '../images/inventory.png';
 
 const Projects = () => {
