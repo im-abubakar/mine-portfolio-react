@@ -5,22 +5,18 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
+    InventoryDesc: "A MERN-based inventory management system with JWT authentication. Features efficient product management and seamless deployment, hosted on Netlify for easiness.",
+    InventoryGithub: "https://github.com/im-abubakar/Inventory-management-system",
+    InventoryWebsite: "inventory-managment-sys.netlify.app/",
 
-    InventoryDesc : "This is a responsive inventory management system built in MERN stack, featuring JWT token-based authentication. I also deployed it using GitHub Pages.",
-    InventoryGithub : "https://github.com/im-abubakar/Inventory-management-system",
-    InventoryWebsite : "https://inventory-managment-sys.netlify.app/login",
+    EzPartyDesc: "A platform for booking top event services in your city. Connects users with trusted local vendors to plan perfect weddings, parties, and events effortlessly.",
+    EzPartyGithub: "",
+    EzPartyWebsite: "https://oneezparty.com/",
 
-    EzPartyDesc:"Welcome to EzParty, the premier platform for booking top event services in your city. The site connects users with the best local vendors for weddings, parties, and more. Start planning the perfect event today with EzParty!",
-    EzPartyGithub:"",  
-    EzPartyWebsite:"https://oneezparty.com/",
-    
-    WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    WigglesWebsite:"https://wiggles.vercel.app/",
-  }
+    OneupDesc: "An AI-powered platform offering customized investment solutions. Ensures control, and smarter financial management for users seeking seamless, tailored investment opportunities.",
+    OneupGithub: "",
+    OneupWebsite: "https://oneuppp.netlify.app",
+  };
 
   let show ='';
   if(desc[projectName + 'Github']===""){

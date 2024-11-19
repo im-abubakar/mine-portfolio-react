@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
 import OneezPartyImage from '../images/OneezPartyImage.png';
+import OneupImage from '../images/Oneup.png' 
 // import RogfreeImage from '../images/RogfreeImage.png';
 // import TindogImage from '../images/TindogImage.png';
 import InventoryImage from '../images/inventory.png';
@@ -12,6 +13,7 @@ const Projects = () => {
       <div className='project'>
         <ProjectBox projectPhoto={InventoryImage} projectName="Inventory" />
         <ProjectBox projectPhoto={OneezPartyImage} projectName="EzParty" />
+        <ProjectBox projectPhoto={OneupImage} projectName="Oneup" />
         {/* <ProjectBox projectPhoto={InventoryImage} projectName="Inventory Management System" />
         <ProjectBox projectPhoto={TindogImage} projectName="Tindog" /> */}
       </div>
