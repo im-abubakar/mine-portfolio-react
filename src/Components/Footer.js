@@ -11,7 +11,7 @@ const Footer = () => {
         <a href="https://github.com/im-abubakar" target='_blank' rel='noopener noreferrer'>
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/abubaker-mughal-2820bb292/" target='_blank' rel='noopener noreferrer'>
+        <a href="https://www.linkedin.com/in/bakar-dev-sol/" target='_blank' rel='noopener noreferrer'>
           <FaLinkedin />
         </a>
         <a href="mailto:bakarbro123@gmail.com" target='_blank' rel='noopener noreferrer'>
